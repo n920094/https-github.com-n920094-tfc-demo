@@ -1,11 +1,4 @@
 terraform {
-  backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "TED_EVAL"
-    workspaces {
-      name = "tfc-demo"
-    }
-  }
 }
 
 provider "aws" {
