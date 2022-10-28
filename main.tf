@@ -1,4 +1,3 @@
-#tfc-demo
 terraform {
 }
 
